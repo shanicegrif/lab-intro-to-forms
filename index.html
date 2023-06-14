@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    
+    <p>Required fields are marked by *</p>
+    <fieldset>
+        
+        <legend>Contact Information</legend>
+        <label for="Mx." > Mx.</label>
+        <br>
+        <input type="radio" name="suffix" id="Mx." checked="checked">
+        <br>
+        <label for="Mr." > Mr.</label>
+        <br>
+        <input type="radio" name="suffix" id="Mr.">
+        <br>
+        <label for="Ms." > Ms.</label>
+        <br>
+        <input type="radio" name="suffix" id="Ms.">
+        <br>
+        <label for="Mrs." > Mrs.</label>
+        <br>
+        <input type="radio" name="suffix" id="Mrs.">
+        <br>
+        <label for="Name">Name</label>
+        <br>
+        <input type="text" Name="Name" required id="Name">
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        <input type="text" Email="Email" required id="Email">    
+    </fieldset>
+    <fieldset>
+        <legend>Payment Information</legend>
+        <select id="Credit Card Number" name="Credit Card Number">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="American Express">American Express</option>
+            <option value="Discover">Discover</option>
+        </select>
+        <label for="Credit Card Number">Credit Card Number</label>
+        <br>
+        <input type="tel" id="Card Number" placeholder="xxxx xxxx xxxx xxxx" required>
+        <br>
+        <label for="Expiration Date" required>Expiration Date</label>
+        <br>
+        <input type="text" id="Expiration Date">
+    </fieldset>
+    <input type="submit" value="Submit Payment">
+
+
+
+
+</body>
+</html>
